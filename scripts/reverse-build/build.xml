@@ -2,12 +2,12 @@
 
 <project name="Copying PAYINVOICE data to GIT" basedir="." default="copy_to_git">
 
-	<property name="target" 		value="/vobs/community/scripts/../" 	override="true" />
+	<property name="target" 		value="@local.repository.location@" 	override="true" />
 	<property name="source" 		value="${project.basedir}" 	override="true" />
-	<property name="build.version" 	value="0.9.0" 	override="true" />
-	<property name="build.number" 	value="${build.number}" 		override="true" />
+	<property name="build.version" 	value="@build.version@" 	override="true" />
+	<property name="build.number" 	value="@build.number@" 		override="true" />
 	<property name="A@T" 			value="@" />
-	
+
 	<!-- Copy Target -->
 	<target name="copy_to_git" description="copy target">
 		<phingcall target="copy_osi" />
