@@ -14,8 +14,8 @@ if(!defined( '_JEXEC' )){
 }
 
 /** 
- * Profile Controller
+ * User Controller
  * @author CodeSparks
  */
-class CSCommunityAdminControllerProfile extends CSCommunityController
+class CSCommunityAdminControllerUser extends CSCommunityController
 {}

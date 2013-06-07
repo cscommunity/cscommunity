@@ -14,11 +14,11 @@ if(!defined( '_JEXEC' )){
 }
 
 /** 
- * Profile Model
+ * Field Model
  * @author CodeSparks
  */
-class CSCommunityModelProfile extends CSCommunityModel
+class CSCommunityModelField extends CSCommunityModel
 {
 }
 
-class CSCommunityModelformProfile extends CSCommunityModelform { }
+class CSCommunityModelformField extends CSCommunityModelform { }

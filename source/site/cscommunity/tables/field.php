@@ -14,10 +14,10 @@ if(!defined( '_JEXEC' )){
 }
 
 /** 
- * Profile Table
+ * Field Table
  * @author CodeSparks
  */
-class CSCommunityTableProfile extends CSCommunityTable
+class CSCommunityTableField extends CSCommunityTable
 {
 	
 }

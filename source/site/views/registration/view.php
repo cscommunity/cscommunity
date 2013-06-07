@@ -14,9 +14,10 @@ if(!defined( '_JEXEC' )){
 }
 
 /** 
- * Field Base View
+ * Registration Base View
 * @author CodeSparks
  */
-class CSCommunityAdminBaseViewField extends CSCommunityView
+class CSCommunitySiteBaseViewRegistration extends CSCommunityView
 {
+
 }

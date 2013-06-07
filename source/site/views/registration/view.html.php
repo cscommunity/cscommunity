@@ -14,9 +14,19 @@ if(!defined( '_JEXEC' )){
 }
 
 /** 
- * Field Base View
+ * Registration Html View
 * @author CodeSparks
  */
-class CSCommunityAdminBaseViewField extends CSCommunityView
-{
+require_once dirname(__FILE__).'/view.php';
+class CSCommunitySiteViewRegistration extends CSCommunitySiteBaseViewRegistration
+{	
+	public function display()
+	{		
+		return true;
+	}
+
+	public function _basicFormSetup()
+	{
+		return true;
+	}
 }

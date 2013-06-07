@@ -14,10 +14,10 @@ if(!defined( '_JEXEC' )){
 }
 
 /** 
- * Profile Lib
+ * Field Lib
  * @author CodeSparks
  */
-class CSCommunityProfile extends CSCommunityLib
+class CSCommunityField extends CSCommunityLib
 {
 	public function reset()
 	{		
@@ -26,6 +26,6 @@ class CSCommunityProfile extends CSCommunityLib
 	
 	public static function getInstance($id = 0, $data = null, $dummy1 = null, $dummy2 = null)
 	{
-		return parent::getInstance('Profile', $id, $data);
+		return parent::getInstance('Field', $id, $data);
 	}
 }

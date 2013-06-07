@@ -4,7 +4,7 @@
 * @copyright	Copyright (C) 2009 - 2012 Ready Bytes Software Labs Pvt. Ltd. All rights reserved.
 * @license		GNU/GPL, see LICENSE.php
 * @package 		CSCOMMUNITY
-* @subpackage	Back-end
+* @subpackage	Front-end
 * @contact		team@readybytes.in
 */
 
@@ -14,9 +14,13 @@ if(!defined( '_JEXEC' )){
 }
 
 /** 
- * Field Base View
-* @author CodeSparks
+ * Registration Controller
+ * @author CodeSparks
  */
-class CSCommunityAdminBaseViewField extends CSCommunityView
+class CSCommunitySiteControllerRegistration extends CSCommunityController
 {
+	public function getModel()
+	{
+		return null;
+	} 
 }

@@ -14,11 +14,11 @@ if(!defined( '_JEXEC' )){
 }
 
 /** 
- * Invoice Html View
+ * User Html View
 * @author CodeSparks
  */
 require_once dirname(__FILE__).'/view.php';
-class CSCommunityAdminViewInvoice extends CSCommunityAdminBaseViewInvoice
+class CSCommunityAdminViewUser extends CSCommunityAdminBaseViewUser
 {	
 	
 }
