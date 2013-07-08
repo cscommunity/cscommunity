@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="2.5" method="upgrade">
 <name>cscommunity</name>
-<creationDate>@creationDate@</creationDate>
+<creationDate>July 2013</creationDate>
 <author>CodeSparks</author>
 <authorEmail>codesparks@gmail.com</authorEmail>
 <authorUrl>CodeSparks.in</authorUrl>
